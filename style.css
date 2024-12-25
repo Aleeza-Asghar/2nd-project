@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-color: black; */
+    margin: 0;
+    padding: 0;
+    color:black;
+    font-family: "Raleway", serif;
+}
+
+a, button {
+    cursor: pointer;
+}
+
+h1 {
+    font-weight: 500;
+    line-height: 88px;
+}
+
+/* main {
+    height: 100vh;
+    background-image: url('./img.jpg');
+    background-size: cover;
+} */
+
+.btn-primary {
+    background-color: #f8c761;
+    border-radius: 0px;
+    padding: 15px 30px;
+    border: 0px;
+    color: black;
+}
+
+.logo{
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.nav-bar {
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.link {
+    margin: 0px 10px;
+}
+
+
+.btn-bg {
+    padding: 25px 60px;
+    font-size: 16px;
+}
+/* 
+.btn-sm{
+
+} */
+/* 
+.main-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+} */
+
+.main-heading h1 {
+    font-size: 100px;
+    /* text-align: center; */
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.main-button-wrapper{
+    margin-top: 40px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.main-heading{
+    margin-top: 200px;
+}
+#container{
+    width: 80%;
+    margin-left: 10%;
+}
+
+
+
+
+
+
+.main-flexbox{
+    display: flex;
+    /* height: 100vh; */
+    /* width: 50%;
+    flex: 1; */
+
+}
+.box1{
+    flex: 1;
+}
+
+.img{
+    height: 100vh;
+    background-image: url('./img.jpg');
+    background-size: cover;
+    
+}
